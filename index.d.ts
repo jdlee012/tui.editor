@@ -501,18 +501,18 @@ declare namespace tuiEditor {
   }
 }
 
-declare module 'tui-editor-custom' {
+declare module 'tui-editor' {
   export default tuiEditor.Editor;
 }
 
-declare module 'tui-editor-custom/dist/tui-editor-Editor-all' {
+declare module 'tui-editor/dist/tui-editor-Editor-all' {
   export default tuiEditor.Editor;
 }
 
-declare module 'tui-editor-custom/dist/tui-editor-Viewer' {
+declare module 'tui-editor/dist/tui-editor-Viewer' {
   export default tuiEditor.Viewer;
 }
 
-declare module 'tui-editor-custom/dist/tui-editor-Viewer-all' {
+declare module 'tui-editor/dist/tui-editor-Viewer-all' {
   export default tuiEditor.Viewer;
 }
